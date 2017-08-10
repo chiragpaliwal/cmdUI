@@ -1,0 +1,70 @@
+body{
+  font-family: monospace;
+  font-size: 14px;
+  background-color: #111;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.cmd{
+  margin: 0 auto;
+  cursor: pointer;
+  position: absolute;
+}
+
+.toolbar{
+  height: 30px;
+  background-image: -webkit-linear-gradient(top, #efedee, #c1c1c1);
+  background-image: -moz-linear-gradient(top, #efedee, #c1c1c1);
+
+}
+
+.panel{
+  height: 25vh;
+  background-color: #424242;
+
+}
+
+.controls{
+  width: 70px;
+  margin: 0px;
+}
+
+ul{
+  padding: 8px;
+}
+
+.controls li{
+  list-style: none;
+  display: inline-block;
+}
+
+a.cls{
+  background-image: url(../img/close.png);
+  display: block;
+  height: 13px;
+  width: 12px;
+}
+
+.button{
+  background-image: url(../img/button.png);
+  display: block;
+  height: 13px;
+  width: 12px;
+}
+
+.title{
+  text-align: center;
+}
+
+.panel{
+  padding: 20px;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+.blinker{
+    animation: blinker 0.9s linear infinite;
+}
